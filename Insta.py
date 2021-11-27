@@ -12,6 +12,6 @@ user_id = cl.user_id_from_username(user_name)
 media = cl.user_medias(user_id, amount=1000)
 print('Got {} medias to archive'.format(len(media)))
 for each in media:
-    time.sleep(1, 5)
+    time.sleep(1) # So instagramm will think its a human actions not a bot. To avoid rate-limit error
     cl.media_archive(each.id, revert=False)
     print('Media {} archived'.format(each.id))
