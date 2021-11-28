@@ -1,4 +1,4 @@
-# InstaArchive
+# Instagram Archive Media python
 Simple Python Script,to Archive all Media in Profile to Archive tab.
 
 
