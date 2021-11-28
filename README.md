@@ -4,8 +4,9 @@ Simple Python Script,to Archive all Media in Profile to Archive tab.
 
 Based on instagrapi package 
 
-pip install pillow
-pip install instagrapi
+#pip install pillow
+
+#pip install instagrapi
 
 After open Insta.py and set username and password  of your instagram account 
 
